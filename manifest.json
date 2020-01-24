@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Translator for Yuika",
+    "version": "0.0.0",
+    "background": {
+        "scripts": ["provider.js"]
+    },
+    "permissions": [
+        "storage"
+    ],
+    "options_ui": {
+        "page": "options/index.html"
+    }
+}
